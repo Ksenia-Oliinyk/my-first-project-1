@@ -44,6 +44,11 @@
             <use href="./images/icons.svg#illustration-chocolate"></use>
           </svg>
         </a>
+        <button class="mobile-menu-btn" type="button">
+          <svg class="mobile-menu-btn-icon" width="28" height="28">
+            <use href="./images/icons.svg#burger-menu"></use>
+          </svg>
+        </button>
         <nav class="main-nav">
           <ul class="main-nav-list">
             <li class="main-nav-item">
@@ -175,7 +180,7 @@
         </div>
       </section>
       <!-- Ingridients section -->
-      <section class="ingredients section" id="ingridients">
+      <section class="ingredients section hide" id="ingridients">
         <div class="container">
           <h2 class="ingredients-title section-title">
             It all adds up to one exceptional
@@ -291,7 +296,7 @@
         </div>
       </section>
       <!-- Made section -->
-      <section class="made section" id="made">
+      <section class="made section hide" id="made">
         <div class="container">
           <h2 class="made-title section-title">
             How it&#39;s <span class="accent">made</span>?
@@ -337,7 +342,7 @@
         </div>
       </section>
       <!-- Products section -->
-      <section class="products section" id="products">
+      <section class="products section hide" id="products">
         <div class="container">
           <h2 class="products-title section-title">
             Our <span class="accent">products</span>
@@ -443,7 +448,7 @@
         </div>
       </section>
       <!-- Bestsellers section -->
-      <section class="bestsellers section" id="bestsellers">
+      <section class="bestsellers section hide" id="bestsellers">
         <div class="container">
           <h2 class="bestsellers-title section-title">
             <span class="accent">Top</span> sellers
@@ -507,7 +512,7 @@
         </div>
       </section>
       <!-- Reviews section -->
-      <section class="reviews section" id="reviews">
+      <section class="reviews section hide" id="reviews">
         <div class="container">
           <h2 class="reviews-title section-title">
             <span class="accent">Chocolate</span> is loved
@@ -565,7 +570,7 @@
       </section>
     </main>
     <!-- Footer section -->
-    <footer class="footer" id="footer">
+    <footer class="footer hide" id="footer">
       <div class="container">
         <div class="footer-top">
           <p class="footer-slogan">
@@ -656,8 +661,69 @@
         </div>
       </div>
     </footer>
+    <!-- Mobile menu -->
+    <div class="mobile-menu">
+      <div class="mobile-menu-container">
+        <button class="mobile-menu-btn">
+          <svg class="mobile-menu-btn-icon" width="14" height="14">
+            <use href="./images/icons.svg#illustration-close"></use>
+          </svg>
+        </button>
+
+        <ul class="mobile-menu-list">
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link active" href="#">Home</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link" href="#">How it&#39;s made?</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link" href="#">Chocolate is loved</a>
+          </li>
+        </ul>
+
+        <ul class="socials socials-light">
+          <li class="socials-item">
+            <a
+              class="socials-link"
+              href="https://www.facebook.com/?locale=ru_RU"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="socials-icon" width="24" height="24">
+                <use href="./images/icons.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="socials-item">
+            <a
+              class="socials-link"
+              href="https://instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="socials-icon" width="24" height="24">
+                <use href="./images/icons.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="socials-item">
+            <a
+              class="socials-link"
+              href="https://twitter.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="socials-icon" width="24" height="24">
+                <use href="./images/icons.svg#twitter"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
     <!-- Modal window -->
-    <div class="backdrop is-open">
+    <div class="backdrop is-open hide">
       <div class="modal">
         <button class="modal-btn" type="button" aria-label="close modal button">
           <svg class="modal-btn-icon" width="16" height="16">
