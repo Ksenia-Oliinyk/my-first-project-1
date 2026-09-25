@@ -40,12 +40,8 @@ address {
 
 img {
   display: block;
-}
-
-/* Helper class */
-
-.hide {
-  display: none !important;
+  max-width: 100%;
+  height: auto;
 }
 
 /* Base styles */
@@ -108,8 +104,8 @@ img {
   padding: 0 20px;
   margin: 0 auto;
 
-  outline: 2px solid red;
-  outline-offset: -2px;
+  /* outline: 2px solid red;
+  outline-offset: -2px; */
 }
 
 @media screen and (min-width: 768px) {
@@ -202,7 +198,7 @@ img {
 /* Button */
 .btn {
   padding: 12px 26px;
-  /* padding: 14px 40px; */
+
   font-weight: 600;
 
   background-color: transparent;
@@ -212,6 +208,13 @@ img {
   transition: 300ms ease-out;
   transition-property: color, background-color, border-color;
 }
+
+@media only screen and (min-width: 768px) {
+  .btn {
+    padding: 14px 40px;
+  }
+}
+
 .btn-filled {
   color: #fff;
   background: #fd9222;
@@ -221,8 +224,7 @@ img {
   color: #fd9222;
   background-color: rgba(253, 146, 34, 0.1);
 }
-.btn-outlinde {
-}
+
 .primary {
   border-color: #fff;
   color: #fff;

@@ -17,7 +17,8 @@
   overflow: hidden;
 }
 .made-ill {
-  max-width: 100%;
+  height: 400px;
+  object-fit: cover;
 }
 .made-right-side {
   max-width: 600px;
